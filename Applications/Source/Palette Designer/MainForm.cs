@@ -489,6 +489,7 @@ namespace PaletteDesigner
             trackBar1.ApplyPalette(_palette);
             menuPage1.ApplyPalette(_palette);
             toolTipsPage1.ApplyPalette(_palette);
+            pagePropertyGrid1.ApplyPalette(_palette);
 
             UpdateChromeTMS();
 
