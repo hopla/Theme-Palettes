@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "WixInstaller.net48", "WixInstaller.net48\WixInstaller.net48.wixproj", "{12C40EF0-490E-4DF9-B459-C7EF007534D7}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "WixInstaller.net50", "WixInstaller.net50\WixInstaller.net50.wixproj", "{8E63ED20-CCC7-4BFD-A3E7-3225FC5DEAE3}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "WixInstaller.net60", "WixInstaller.net60\WixInstaller.net60.wixproj", "{DB146E60-E819-45A7-BD98-BB50F147D2DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12C40EF0-490E-4DF9-B459-C7EF007534D7}.Debug|x86.ActiveCfg = Debug|x86
+		{12C40EF0-490E-4DF9-B459-C7EF007534D7}.Debug|x86.Build.0 = Debug|x86
+		{12C40EF0-490E-4DF9-B459-C7EF007534D7}.Release|x86.ActiveCfg = Release|x86
+		{12C40EF0-490E-4DF9-B459-C7EF007534D7}.Release|x86.Build.0 = Release|x86
+		{8E63ED20-CCC7-4BFD-A3E7-3225FC5DEAE3}.Debug|x86.ActiveCfg = Debug|x86
+		{8E63ED20-CCC7-4BFD-A3E7-3225FC5DEAE3}.Debug|x86.Build.0 = Debug|x86
+		{8E63ED20-CCC7-4BFD-A3E7-3225FC5DEAE3}.Release|x86.ActiveCfg = Release|x86
+		{8E63ED20-CCC7-4BFD-A3E7-3225FC5DEAE3}.Release|x86.Build.0 = Release|x86
+		{DB146E60-E819-45A7-BD98-BB50F147D2DE}.Debug|x86.ActiveCfg = Debug|x86
+		{DB146E60-E819-45A7-BD98-BB50F147D2DE}.Debug|x86.Build.0 = Debug|x86
+		{DB146E60-E819-45A7-BD98-BB50F147D2DE}.Release|x86.ActiveCfg = Release|x86
+		{DB146E60-E819-45A7-BD98-BB50F147D2DE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0809D1E5-89AA-4C33-9DDA-B50C086BEF3A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+		<DirectoryRef Id="KryptonToolkitThemeApplicationsDir">
+			<Component Id="" Guid="*">
+				
+			</Component>
+		</DirectoryRef>
+	</Fragment>
+</Wix>
