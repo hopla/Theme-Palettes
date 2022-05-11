@@ -642,6 +642,10 @@ namespace PaletteDesigner
 
             alwaysStartInAMaximisedStateToolStripMenuItem.Checked = _settingsManager.GetMaximised();
 
+            tscTheme.Text = _settingsManager.GetSelectedThemeModeManager().ToString();
+
+            ThemeManager.PropagateThemeSelector(tscTheme);
+
             CreateNewPalette();
         }
 
@@ -973,5 +977,27 @@ namespace PaletteDesigner
         private void alwaysStartInAMaximisedStateToolStripMenuItem_Click(object sender, EventArgs e) => _settingsManager.SaveSettings(alwaysStartInAMaximisedStateToolStripMenuItem.Checked);
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e) => _settingsManager.SaveSettings();
+
+        private void resetThemeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DialogResult result = KryptonMessageBox.Show("Do you want to restore the theme back to it's default?", "Reset Theme", MessageBoxButtons.YesNo, KryptonMessageBoxIcon.QUESTION);
+
+            if (result == DialogResult.Yes)
+            {
+                _settingsManager.SetSelectedThemeModeManager(PaletteModeManager.Office365Blue);
+
+                _settingsManager.SetSelectedThemeMode(PaletteMode.Office365Blue);
+
+                kryptonManager.GlobalPaletteMode = _settingsManager.GetSelectedThemeModeManager();
+            }
+
+        }
+
+        private void tscTheme_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ThemeManager.ApplyThemeManagerMode(tscTheme.Text);
+
+            //_settingsManager.SetSelectedThemeModeManager(ThemeManager.);
+        }
     }
 }

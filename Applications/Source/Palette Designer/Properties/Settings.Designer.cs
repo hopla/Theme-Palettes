@@ -34,5 +34,29 @@ namespace PaletteDesigner.Properties {
                 this["StartMaximised"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Office 365 - Blue")]
+        public global::Krypton.Toolkit.PaletteMode SelectedThemeMode {
+            get {
+                return ((global::Krypton.Toolkit.PaletteMode)(this["SelectedThemeMode"]));
+            }
+            set {
+                this["SelectedThemeMode"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Office 365 - Blue")]
+        public global::Krypton.Toolkit.PaletteModeManager SelectedThemeModeManager {
+            get {
+                return ((global::Krypton.Toolkit.PaletteModeManager)(this["SelectedThemeModeManager"]));
+            }
+            set {
+                this["SelectedThemeModeManager"] = value;
+            }
+        }
     }
 }

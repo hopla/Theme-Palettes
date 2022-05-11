@@ -29,10 +29,21 @@ namespace PaletteDesigner
         public void SetMaximised(bool value) => _settings.StartMaximised = value;
 
         /// <summary>Gets the maximised.</summary>
-        /// <returns>
-        ///   <br />
-        /// </returns>
         public bool GetMaximised() => _settings.StartMaximised;
+
+        /// <summary>Sets the selected theme mode.</summary>
+        /// <param name="value">The value.</param>
+        public void SetSelectedThemeMode(PaletteMode value) => _settings.SelectedThemeMode = value;
+
+        /// <summary>Gets the selected theme mode.</summary>
+        public PaletteMode GetSelectedThemeMode() => _settings.SelectedThemeMode;
+
+        /// <summary>Sets the selected theme mode manager.</summary>
+        /// <param name="value">The value.</param>
+        public void SetSelectedThemeModeManager(PaletteModeManager value) => _settings.SelectedThemeModeManager = value;
+
+        /// <summary>Gets the selected theme mode manager.</summary>
+        public PaletteModeManager GetSelectedThemeModeManager() => _settings.SelectedThemeModeManager;
 
         #endregion
 
@@ -68,11 +79,19 @@ namespace PaletteDesigner
                 if (result == DialogResult.Yes)
                 {
                     SetMaximised(false);
+
+                    SetSelectedThemeMode(PaletteMode.Office365Blue);
+
+                    SetSelectedThemeModeManager(PaletteModeManager.Office365Blue);
                 }
             }
             else
             {
                 SetMaximised(false);
+
+                SetSelectedThemeMode(PaletteMode.Office365Blue);
+
+                SetSelectedThemeModeManager(PaletteModeManager.Office365Blue);
             }
 
             SaveSettings(useConfirmation);
