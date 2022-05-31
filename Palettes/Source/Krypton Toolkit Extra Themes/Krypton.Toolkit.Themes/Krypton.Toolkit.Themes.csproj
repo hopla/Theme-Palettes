@@ -1,0 +1,186 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Choose>
+		<When Condition="'$(Configuration)' == 'Nightly'">
+			<PropertyGroup>
+				<TargetFrameworks>net462;net47;net471;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
+			</PropertyGroup>
+		</When>
+		<Otherwise>
+			<Choose>
+				<When Condition="'$(Configuration)' == 'Canary'">
+					<PropertyGroup>
+						<TargetFrameworks>net462;net47;net471;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+					</PropertyGroup>
+				</When>
+				<Otherwise>
+					<Choose>
+						<When Condition="'$(Configuration)' == 'StableFull'">
+							<PropertyGroup>
+								<TargetFrameworks>net462;net47;net471;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+							</PropertyGroup>
+						</When>
+						<Otherwise>
+							<Choose>
+								<When Condition="'$(Configuration)' == 'StableLite'">
+									<PropertyGroup>
+										<TargetFrameworks>net48;netcoreapp3.1;net6.0-windows</TargetFrameworks>
+									</PropertyGroup>
+								</When>
+								<Otherwise>
+									<Choose>
+										<When Condition="'$(Configuration)' == 'SignedFull'">
+											<PropertyGroup>
+												<TargetFrameworks>net462;net47;net471;net472;net48;netcoreapp3.1;net5.0-windows;net6.0-windows</TargetFrameworks>
+											</PropertyGroup>
+										</When>
+										<Otherwise>
+											<Choose>
+												<When Condition="'$(Configuration)' == 'SignedLite'">
+													<PropertyGroup>
+														<TargetFrameworks>net48;netcoreapp3.1;net6.0-windows</TargetFrameworks>
+													</PropertyGroup>
+												</When>
+											</Choose>
+										</Otherwise>
+									</Choose>
+								</Otherwise>
+							</Choose>
+						</Otherwise>
+					</Choose>
+				</Otherwise>
+			</Choose>
+		</Otherwise>
+	</Choose>
+
+	<PropertyGroup>
+		<OutputType>library</OutputType>
+		<RootNamespace>Krypton.Toolkit.Themes</RootNamespace>
+		<AssemblyName>Krypton.Toolkit.Themes</AssemblyName>
+		<UseWindowsForms>true</UseWindowsForms>
+		<NeutralLanguage>en</NeutralLanguage>
+		<Configurations>Debug;Release;Nightly;Canary;StableFull;StableSigned;StableLight</Configurations>
+		<!--<Configurations>Debug;Release;Nightly;Canary;StableFull;StableLite;SignedFull;SignedLite</Configurations>-->
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Include="Palette Builtin\Office 2007\Extra Themes\PaletteOffice2007Access.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Resources\CheckBoxStripResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>CheckBoxStripResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\GalleryImageResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>GalleryImageResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\GenericImageResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>GenericImageResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\HelpIconResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>HelpIconResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\Office2007BlueRadioButtonResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Office2007BlueRadioButtonResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\Office2007ControlBoxResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Office2007ControlBoxResources.resx</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Update="Resources\CheckBoxStripResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>CheckBoxStripResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\GalleryImageResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>GalleryImageResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\GenericImageResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>GenericImageResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\HelpIconResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>HelpIconResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Office2007BlueRadioButtonResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Office2007BlueRadioButtonResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Office2007ControlBoxResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Office2007ControlBoxResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+	<!--Package Data-->
+	<Choose>
+		<When Condition="'$(Configuration)' == 'Canary'">
+			<PropertyGroup>
+				<PackageId>Krypton.Toolkit.Themes.Canary</PackageId>
+			</PropertyGroup>
+		</When>
+
+		<When Condition="'$(Configuration)' == 'Nightly'">
+			<PropertyGroup>
+				<PackageId>Krypton.Toolkit.Themes.Nightly</PackageId>
+			</PropertyGroup>
+		</When>
+
+		<When Condition="'$(Configuration)' == 'Signed'">
+			<PropertyGroup>
+				<PackageId>Krypton.Toolkit.Themes.Signed</PackageId>
+			</PropertyGroup>
+		</When>
+		<Otherwise>
+			<PropertyGroup>
+				<PackageId>Krypton.Toolkit.Themes</PackageId>
+			</PropertyGroup>
+		</Otherwise>
+	</Choose>
+
+	<Choose>
+		<When Condition="'$(Configuration)' == 'Nightly'">
+			<PropertyGroup>
+				<LangVersion>preview</LangVersion>
+			</PropertyGroup>
+
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit.Nightly" Version="65.22.5.126-alpha" />
+			</ItemGroup>
+		</When>
+
+		<When Condition="'$(Configuration)' == 'Canary'">
+			<PropertyGroup>
+				<LangVersion>preview</LangVersion>
+			</PropertyGroup>
+
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit.Canary" Version="65.22.5.123-beta" />
+			</ItemGroup>
+		</When>
+		<Otherwise>
+			<PropertyGroup>
+				<LangVersion>preview</LangVersion>
+			</PropertyGroup>
+
+			<ItemGroup>
+				<PackageReference Include="Krypton.Toolkit" Version="60.22.2.32" />
+			</ItemGroup>
+		</Otherwise>
+	</Choose>
+</Project>
