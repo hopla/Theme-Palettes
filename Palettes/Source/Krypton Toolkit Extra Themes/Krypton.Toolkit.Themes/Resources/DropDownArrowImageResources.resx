@@ -118,34 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Office2007HelpIconDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DisabledDropDownButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>DisabledDropDownButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Office2007HelpIconDisabledV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconDisabledV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DisabledDropDownButton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>DisabledDropDownButton2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Office2007HelpIconHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DisabledDropUpButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>DisabledDropUpButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Office2007HelpIconNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2007HelpIconPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconDisabledV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconDisabledV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DisabledGalleryDropButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>DisabledGalleryDropButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
