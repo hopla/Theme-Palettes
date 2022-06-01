@@ -118,49 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Office2007HelpIconDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RadioButton2010SilverN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>RadioButton2010SilverN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Office2007HelpIconDisabledV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconDisabledV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RadioButton2010SilverNC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>RadioButton2010SilverNC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Office2007HelpIconHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RadioButton2010SilverPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>RadioButton2010SilverPC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Office2007HelpIconNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2007HelpIconPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2007HelpIconPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconDisabledV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconDisabledV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office2010HelpIconPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office2010HelpIconPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office365HelpIconDisabled" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office365HelpIconDisabled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office365HelpIconDisabledV2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office365HelpIconDisabledV2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office365HelpIconHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office365HelpIconHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office365HelpIconNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office365HelpIconNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Office365HelpIconPressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Office365HelpIconPressed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RadioButton2010SilverTC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>RadioButton2010SilverTC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

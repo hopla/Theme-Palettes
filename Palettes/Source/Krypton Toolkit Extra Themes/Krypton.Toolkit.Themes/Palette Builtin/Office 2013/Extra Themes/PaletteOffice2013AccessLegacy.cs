@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Krypton.Toolkit.Themes
 {
-    public class PaletteOffice2013Access : PaletteOffice2013Base
+    public class PaletteOffice2013AccessLegacy : PaletteOffice2013Base
     {
         #region Static Fields
 
@@ -296,7 +296,7 @@ namespace Krypton.Toolkit.Themes
         #endregion
 
         #region Identity
-        static PaletteOffice2013Access()
+        static PaletteOffice2013AccessLegacy()
         {
             _checkBoxList = new ImageList
             {
@@ -324,7 +324,7 @@ namespace Krypton.Toolkit.Themes
         /// <summary>
         /// Initialize a new instance of the PaletteOffice2010Silver class.
         /// </summary>
-        public PaletteOffice2013Access()
+        public PaletteOffice2013AccessLegacy()
             : base(_schemeOfficeColors,
                    _checkBoxList,
                    _galleryButtonList,

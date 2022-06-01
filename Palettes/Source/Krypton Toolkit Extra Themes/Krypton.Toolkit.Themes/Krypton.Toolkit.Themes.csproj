@@ -118,10 +118,30 @@
 	    <AutoGen>True</AutoGen>
 	    <DependentUpon>Office2010Arrows.resx</DependentUpon>
 	  </Compile>
+	  <Compile Update="Resources\Office2010BlueRadioButtonResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Office2010BlueRadioButtonResources.resx</DependentUpon>
+	  </Compile>
 	  <Compile Update="Resources\Office2010ControlBoxResources.Designer.cs">
 	    <DesignTime>True</DesignTime>
 	    <AutoGen>True</AutoGen>
 	    <DependentUpon>Office2010ControlBoxResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\Office2010SilverRadioButtonResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>Office2010SilverRadioButtonResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\ProfessionalButtonSpecResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>ProfessionalButtonSpecResources.resx</DependentUpon>
+	  </Compile>
+	  <Compile Update="Resources\ProfessionalPinImageResources.Designer.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>ProfessionalPinImageResources.resx</DependentUpon>
 	  </Compile>
 	  <Compile Update="Resources\RibbonArrowImageResources.Designer.cs">
 	    <DesignTime>True</DesignTime>
@@ -176,9 +196,25 @@
 	    <Generator>ResXFileCodeGenerator</Generator>
 	    <LastGenOutput>Office2010Arrows.Designer.cs</LastGenOutput>
 	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Office2010BlueRadioButtonResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Office2010BlueRadioButtonResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
 	  <EmbeddedResource Update="Resources\Office2010ControlBoxResources.resx">
 	    <Generator>ResXFileCodeGenerator</Generator>
 	    <LastGenOutput>Office2010ControlBoxResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\Office2010SilverRadioButtonResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>Office2010SilverRadioButtonResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\ProfessionalButtonSpecResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>ProfessionalButtonSpecResources.Designer.cs</LastGenOutput>
+	  </EmbeddedResource>
+	  <EmbeddedResource Update="Resources\ProfessionalPinImageResources.resx">
+	    <Generator>ResXFileCodeGenerator</Generator>
+	    <LastGenOutput>ProfessionalPinImageResources.Designer.cs</LastGenOutput>
 	  </EmbeddedResource>
 	  <EmbeddedResource Update="Resources\RibbonArrowImageResources.resx">
 	    <Generator>ResXFileCodeGenerator</Generator>
