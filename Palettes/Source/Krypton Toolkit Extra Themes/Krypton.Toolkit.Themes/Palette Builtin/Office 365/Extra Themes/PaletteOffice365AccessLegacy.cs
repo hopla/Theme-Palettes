@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Krypton.Toolkit.Themes
+﻿namespace Krypton.Toolkit.Themes
 {
-    public class PaletteOffice365Accesslegacy : PaletteOffice365Base
+    public class PaletteOffice365AccessLegacy : PaletteOffice365Base
     {
         #region Static Fields
 
@@ -296,8 +290,8 @@ namespace Krypton.Toolkit.Themes
         #endregion
 
         #region Constructors
-        /// <summary>Initializes the <see cref="PaletteOffice365Accesslegacy" /> class.</summary>
-        static PaletteOffice365Accesslegacy()
+        /// <summary>Initializes the <see cref="PaletteOffice365AccessLegacy" /> class.</summary>
+        static PaletteOffice365AccessLegacy()
         {
             _checkBoxList = new ImageList
             {
@@ -325,7 +319,7 @@ namespace Krypton.Toolkit.Themes
         /// <summary>
         /// Initializes a new instance of the PaletteOffice365Accesslegacy class.
         /// </summary>
-        public PaletteOffice365Accesslegacy() : base(_schemeOfficeColors, _checkBoxList, _galleryButtonList, _radioButtonArray, _trackBarColors)
+        public PaletteOffice365AccessLegacy() : base(_schemeOfficeColors, _checkBoxList, _galleryButtonList, _radioButtonArray, _trackBarColors)
         {
 
         }

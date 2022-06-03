@@ -622,7 +622,7 @@
         /// <returns>Renderer to use for drawing palette settings.</returns>
         public override IRenderer GetRenderer() =>
             // We always want the professional renderer
-            KryptonManager.RenderOffice2010;
+            Toolkit.KryptonManager.RenderOffice2010;
 
         #endregion
 

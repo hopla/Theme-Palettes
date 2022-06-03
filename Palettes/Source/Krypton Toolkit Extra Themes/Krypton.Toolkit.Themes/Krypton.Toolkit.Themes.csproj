@@ -60,11 +60,32 @@
 		<UseWindowsForms>true</UseWindowsForms>
 		<NeutralLanguage>en</NeutralLanguage>
 		<Configurations>Debug;Release;Nightly;Canary;StableFull;StableSigned;StableLight</Configurations>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
 		<!--<Configurations>Debug;Release;Nightly;Canary;StableFull;StableLite;SignedFull;SignedLite</Configurations>-->
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <EmbeddedResource Remove="Controls Toolkit - Copy\**" />
+	  <None Remove="Controls Toolkit - Copy\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Include="Controls Toolkit\KryptonManager.cs" />
+	  <Compile Include="Controls Toolkit\KryptonPaletteExtended.cs" />
+	  <Compile Include="Converters\PaletteModeExtendedConverter.cs" />
+	  <Compile Include="Converters\PaletteModeManagerExtendedConverter.cs" />
+	  <Compile Include="Designers\Action Lists\KryptonManagerExtendedActionList.cs" />
+	  <Compile Include="Designers\Action Lists\KryptonPaletteExtendedActionList.cs" />
+	  <Compile Include="Designers\Designers\KryptonManagerExtendedDesigner.cs" />
+	  <Compile Include="Designers\Designers\KryptonPaletteExtendedDesigner.cs" />
+	  <Compile Include="Globals\Directives.cs" />
+	  <Compile Include="Palette Base\PaletteDefinitions.cs" />
 	  <Compile Include="Palette Builtin\Office 2007\Extra Themes\PaletteOffice2007Access.cs" />
+	  <Compile Include="Palette Builtin\Office 2010\Extra Themes\PaletteOffice2010Access.cs" />
+	  <Compile Include="Palette Builtin\Office 2013\Extra Themes\PaletteOffice2013Access.cs" />
+	  <Compile Include="Palette Builtin\Office 2013\Extra Themes\PaletteOffice2013AccessLegacy.cs" />
+	  <Compile Include="Palette Builtin\Office 365\Extra Themes\PaletteOffice365Access.cs" />
+	  <Compile Include="Palette Builtin\Office 365\Extra Themes\PaletteOffice365AccessLegacy.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -259,7 +280,7 @@
 			</PropertyGroup>
 
 			<ItemGroup>
-				<PackageReference Include="Krypton.Toolkit.Nightly" Version="70.22.6.152-alpha" />
+				<PackageReference Include="Krypton.Toolkit.Nightly" Version="70.22.6.154-alpha" />
 			</ItemGroup>
 		</When>
 

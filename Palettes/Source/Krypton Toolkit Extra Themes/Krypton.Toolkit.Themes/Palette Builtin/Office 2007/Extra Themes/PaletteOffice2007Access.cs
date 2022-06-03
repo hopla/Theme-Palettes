@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Krypton.Toolkit.Themes
+﻿namespace Krypton.Toolkit.Themes
 {
     #region Class: PaletteOffice2007Access
     /// <summary>

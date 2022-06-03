@@ -108,12 +108,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visual Studio", "Visual Stu
 		..\..\Visual Studio\Visual Studio 2019 Dark.xml = ..\..\Visual Studio\Visual Studio 2019 Dark.xml
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Krypton.Toolkit 2022", "..\..\..\..\Standard-Toolkit\Source\Krypton Components\Krypton.Toolkit\Krypton.Toolkit 2022.csproj", "{D5833590-316C-4CD1-8D23-F85AA3057E59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Canary|Any CPU = Canary|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		Installer|Any CPU = Installer|Any CPU
 		Nightly|Any CPU = Nightly|Any CPU
+		Preview|Any CPU = Preview|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Signed|Any CPU = Signed|Any CPU
 		StableFull|Any CPU = StableFull|Any CPU
 		StableLight|Any CPU = StableLight|Any CPU
 		StableSigned|Any CPU = StableSigned|Any CPU
@@ -123,16 +128,42 @@ Global
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Canary|Any CPU.Build.0 = Canary|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Installer|Any CPU.ActiveCfg = StableLight|Any CPU
+		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Installer|Any CPU.Build.0 = StableLight|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Nightly|Any CPU.ActiveCfg = Nightly|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Nightly|Any CPU.Build.0 = Nightly|Any CPU
+		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Preview|Any CPU.ActiveCfg = StableLight|Any CPU
+		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Preview|Any CPU.Build.0 = StableLight|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Signed|Any CPU.ActiveCfg = StableLight|Any CPU
+		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.Signed|Any CPU.Build.0 = StableLight|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.StableFull|Any CPU.ActiveCfg = StableFull|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.StableFull|Any CPU.Build.0 = StableFull|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.StableLight|Any CPU.ActiveCfg = Nightly|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.StableLight|Any CPU.Build.0 = Nightly|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.StableSigned|Any CPU.ActiveCfg = StableSigned|Any CPU
 		{4A2BE4F7-8033-4EEC-8D3F-8C9BAC149680}.StableSigned|Any CPU.Build.0 = StableSigned|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Canary|Any CPU.ActiveCfg = Canary|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Canary|Any CPU.Build.0 = Canary|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Installer|Any CPU.ActiveCfg = Installer|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Installer|Any CPU.Build.0 = Installer|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Nightly|Any CPU.ActiveCfg = Nightly|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Nightly|Any CPU.Build.0 = Nightly|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Preview|Any CPU.ActiveCfg = Preview|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Preview|Any CPU.Build.0 = Preview|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Signed|Any CPU.ActiveCfg = Signed|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.Signed|Any CPU.Build.0 = Signed|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.StableFull|Any CPU.ActiveCfg = Signed|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.StableFull|Any CPU.Build.0 = Signed|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.StableLight|Any CPU.ActiveCfg = Signed|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.StableLight|Any CPU.Build.0 = Signed|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.StableSigned|Any CPU.ActiveCfg = Signed|Any CPU
+		{D5833590-316C-4CD1-8D23-F85AA3057E59}.StableSigned|Any CPU.Build.0 = Signed|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
