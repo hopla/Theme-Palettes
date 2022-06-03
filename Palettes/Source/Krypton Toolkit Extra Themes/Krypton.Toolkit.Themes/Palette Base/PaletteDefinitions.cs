@@ -502,7 +502,9 @@
         /// </summary>
         Custom
     }
+    #endregion
 
+    #region PaletteModeManagerExtended
     /// <summary>
     /// Specifies the palette requested at the global level.
     /// </summary>

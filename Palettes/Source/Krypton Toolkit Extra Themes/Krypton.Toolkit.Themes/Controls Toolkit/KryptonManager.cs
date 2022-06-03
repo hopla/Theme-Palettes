@@ -955,7 +955,7 @@ namespace Krypton.Toolkit.Themes
                     // Cast to correct type
 
                     // If this is a KryptonPalette instance
-                    if (palette is KryptonPalette owner)
+                    if (palette is KryptonPaletteExtended owner)
                     {
                         // Get the next palette up in hierarchy
                         palette = owner.BasePaletteMode switch

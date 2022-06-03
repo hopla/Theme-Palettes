@@ -5,7 +5,7 @@
     {
         #region Static Fields
 
-        /// <summary>Converts the <see cref="PaletteMode"/> values into a human readable format.</summary>
+        /// <summary>Converts the <see cref="Toolkit.PaletteMode"/> values into a human readable format.</summary>
         private readonly Pair[] _pairs =
         {
             new(PaletteModeExtended.ProfessionalSystem, "Professional - System"),
